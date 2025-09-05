@@ -9,6 +9,27 @@ body {
   background-position: center;
   background-color: var(--background);
   color: var(--color);
+
+  background-color: #030a1d;
+  background-image: repeating-linear-gradient(
+      90deg,
+      rgba(175, 238, 238, 0.02) 0,
+      rgba(175, 238, 238, 0.02) 1px,
+      transparent 1px,
+      transparent 40px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(175, 238, 238, 0.02) 0,
+      rgba(175, 238, 238, 0.02) 1px,
+      transparent 1px,
+      transparent 40px
+    );
+
+  background-size: 40px 40px, 40px 40px, cover, cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header {
@@ -18,7 +39,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 1%;
-  background-color: var(--background);
+  background-color: var(--header-background);
 }
 
 .header-link {
@@ -44,4 +65,21 @@ header {
 
 .welcome-title {
   width: 60%;
+  text-align: center;
+}
+
+.welcome-title p {
+  font-family: "Playfair Display";
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.blur-ball-container {
+  width: 40%;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
 }

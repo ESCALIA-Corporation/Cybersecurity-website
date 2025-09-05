@@ -19,13 +19,13 @@
 [data-theme="dark"] {
   --escalia-logo: #ec0138;
 
-  --background: #151515;
-  --container-background: #191919;
+  --background: #030a1d;
+  --container-background: #151515;
   --color: #ffffff;
   --button-color: #a4031f;
   --link-color: #FFFFFF;
   --link-color-hover: #fc99a6;
-  --header-background: #151515;
+  --header-background: #030a1d;
 
   --tag-background: #190529;
   --tag-color: #ff87ab;
@@ -49,6 +49,7 @@
 
   --animation-page: #3eff8b;
 }
+
 /* --- HEADER STYLES --- */
 .logo {
   width: 130px;
