@@ -1,0 +1,75 @@
+<!doctype html>
+<html data-theme="light" lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="ciberseguridad, portafolio, estudiante, aprendizaje, desarrollo web, entusiasta, seguridad informática, Escalia, Alejandro Barrientos Escalante, beofalejandro">
+    <meta name="author" content="Escalia">
+    <meta name="robots" content="about, follow">
+    <title>Acerca de | ESCALIA Site</title>
+    <link rel="stylesheet" href="src/anim.css" />
+    <link rel="stylesheet" href="src/about.css" />
+    <link rel="stylesheet" href="src/template.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+<body>
+     <header id="header">
+        <div class="logo_title">
+            <div>
+                <a href="index.html">
+                    <img src="library/logotype_resourses/ESCALIA/ESCALIALogo.svg" class="logo" alt="ESCALIA Logo" />
+                </a>
+            </div>
+        </div>
+
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+            <img src="./library/logotype_resourses/accesibility/menu.svg" class="menu-icon" alt="" />
+        </label>
+        <ul class="menu">
+            <li class="item">
+                <button class="header-link" id="themeToggle"></button>
+            </li>
+             <li class="item">
+                <a class="link transition-link" href="index.html">
+                    <button class="header-link">inicio</button></a>
+            </li>
+            <li class="item">
+                <a class="link transition-link" href="tutoriales.html">
+                    <button class="header-link">Turoriales</button></a>
+            </li>
+            <li class="item">
+                <a class="link transition-link" href="https://escalia-corporation.github.io/Website/">
+                    <button class="header-link">Volver a escalia</button></a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="transition" id="transition"></div>
+
+    <section class="container">
+        <br><br><br><br><br><br>
+        <h1>Preparando el acerca de...</h1>
+        <br>
+
+
+        <div class="controls">
+            <button class="button" id="changePage">Volver a la pagina principal</button>
+        </div>
+    </section>
+
+     <div class="page-transition-overlay" id="pageTransitionOverlay">
+        <div class="bar bar-1"></div>
+        <div class="bar bar-2"></div>
+        <div class="bar bar-3"></div>
+        <div class="bar bar-4"></div>
+        <div class="bar bar-5"></div>
+    </div>
+    
+    <script src="script/anim/fade-out.js"></script>
+</body>
+</html>

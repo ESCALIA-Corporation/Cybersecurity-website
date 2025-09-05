@@ -1,0 +1,33 @@
+:root {
+  --dark-container-border: 0.5px solid #303030;
+  --datk-container-shadow: #ec013825 0 5px 20px -2px;
+
+  --background-gradient: linear-gradient(120deg, #bc75ff, rgb(255, 119, 176));
+}
+
+body {
+  background-position: center;
+  background-color: var(--background);
+  color: var(--color);
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1%;
+  background-color: var(--background);
+}
+
+.logo_title {
+  display: flex;
+  gap: 20px;
+}
+
+.logo_title h1 {
+  font-size: 27px;
+  font-weight: normal;
+  align-content: center;
+}
