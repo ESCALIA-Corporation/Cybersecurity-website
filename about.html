@@ -4,20 +4,19 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="ciberseguridad, portafolio, estudiante, aprendizaje, desarrollo web, entusiasta, seguridad informática, Escalia, Alejandro Barrientos Escalante, beofalejandro">
+    <meta name="keywords"
+        content="ciberseguridad, portafolio, estudiante, aprendizaje, desarrollo web, entusiasta, seguridad informática, Escalia, Alejandro Barrientos Escalante, beofalejandro">
     <meta name="author" content="Escalia">
     <meta name="robots" content="about, follow">
     <title>Acerca de | ESCALIA Site</title>
     <link rel="stylesheet" href="src/anim.css" />
     <link rel="stylesheet" href="src/about.css" />
     <link rel="stylesheet" href="src/template.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 </head>
+
 <body>
-     <header id="header">
+    <header id="header">
         <div class="logo_title">
             <div>
                 <a href="index.html">
@@ -28,13 +27,16 @@
 
         <input type="checkbox" id="menu" />
         <label for="menu">
-            <img src="./library/logotype_resourses/accesibility/menu.svg" class="menu-icon" alt="" />
+            <svg class="menu-logo" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                width="24px">
+                <path fill="currentColor" d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg>
         </label>
         <ul class="menu">
             <li class="item">
                 <button class="header-link" id="themeToggle"></button>
             </li>
-             <li class="item">
+            <li class="item">
                 <a class="link transition-link" href="index.html">
                     <button class="header-link">inicio</button></a>
             </li>
@@ -58,18 +60,20 @@
 
 
         <div class="controls">
+            
             <button class="button" id="changePage">Volver a la pagina principal</button>
         </div>
     </section>
 
-     <div class="page-transition-overlay" id="pageTransitionOverlay">
+    <div class="page-transition-overlay" id="pageTransitionOverlay">
         <div class="bar bar-1"></div>
         <div class="bar bar-2"></div>
         <div class="bar bar-3"></div>
         <div class="bar bar-4"></div>
         <div class="bar bar-5"></div>
     </div>
-    
+
     <script src="script/anim/fade-out.js"></script>
 </body>
+
 </html>

@@ -8,7 +8,8 @@
 }
 
 :root {
-  --dark-container-border: 0.5px solid #303030;
+   src: url('../font/Galmine-q2DR1.otf') format('opentype');
+  --dark-container-border: 0.5px solid #280450;
   --datk-container-shadow: #5301ec25 0 5px 20px -2px;
 
   --hbc-background-base: #02061b;
@@ -23,7 +24,7 @@
   --container-background: #151515;
   --color: #ffffff;
   --button-color: #a4031f;
-  --link-color: #FFFFFF;
+  --link-color: #ffffff;
   --link-color-hover: #fc99a6;
   --header-background: #030a1d;
 
@@ -41,7 +42,7 @@
   --button-color: #a4031f;
   --link-color: #000000;
   --link-color-hover: #6df7bd;
-  --header-background: linear-gradient( 120deg,#ebd8e3f6 0%,#dfe8eb 100%);
+  --header-background: linear-gradient(120deg, #ebd8e3f6 0%, #dfe8eb 100%);
 
   --tag-background: #6df7bd;
   --tag-color: #190529;
